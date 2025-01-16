@@ -47,7 +47,7 @@ At the top of each file is a YAML based frontmatter section that requires these 
 
 ## Running Tests
 
-Run Jest unit tests via the `npm run test` (for a single run) or `npm run test:watch` (for continuous file watch run) commands.  
+Run Jest unit tests via the `npm run test` (for a single run) or `npm run test:watch` (for continuous file watch run) commands.
 
 Playwright tests need the server running locally in either dev or production mode, then in a separate terminal window, run `npm run test:e2e` for headless mode with reporting in console, or `npm run test:e2e:ui` to run the Playwright ui.
 

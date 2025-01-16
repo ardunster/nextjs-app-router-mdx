@@ -1,7 +1,7 @@
 ---
-title: "Newest Article (in Subfolder)"
+title: 'Newest Article (in Subfolder)'
 date: 'August 25, 2023'
-description: "An article that lives in a subdirectory, wow!"
+description: 'An article that lives in a subdirectory, wow!'
 thumbnailUrl: '2023/flower-8079026_640.png'
 tags: ['test', 'article', 'subdirectory']
 ---

@@ -2,7 +2,10 @@ import { getArticles } from '@/app/_utils/articles'
 import { filterArticlesByTag } from '@/app/_utils/tags'
 import { ArticleCard } from '@/app/_components/ArticleCard'
 
-export default function TagPage({ params }: { params: { tag: string } }) {
+export default async function TagPage(props: {
+  params: Promise<{ tag: string }>
+}) {
+  const params = await props.params
   const articles = filterArticlesByTag(getArticles('articles'), params.tag)
 
   return (

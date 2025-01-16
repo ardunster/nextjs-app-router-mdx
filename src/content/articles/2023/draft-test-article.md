@@ -1,7 +1,7 @@
 ---
-title: "Draft Article"
+title: 'Draft Article'
 date: 'December 27, 2023'
-description: "An article that should not appear in the live content"
+description: 'An article that should not appear in the live content'
 status: 'draft'
 category: 'category_2'
 thumbnailUrl: '2023/flower-8079026_640.png'
