@@ -19,11 +19,10 @@ export async function generateStaticParams() {
   return paths
 }
 
-export default async function ArticleBySlug({
-  params,
-}: {
-  params: { slug: string[] }
+export default async function ArticleBySlug(props: {
+  params: Promise<{ slug: string[] }>
 }) {
+  const params = await props.params
   try {
     const article = getArticle('articles', params.slug)
 
