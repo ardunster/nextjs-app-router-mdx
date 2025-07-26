@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "v22.17.1",
+    "npm": "10.9.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,7 +23,7 @@
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
-    "@next/mdx": "15.3.0",
+    "@next/mdx": "15.4.2",
     "glob": "^11.0.1",
     "gray-matter": "^4.0.3",
     "next": "15.4.1",
@@ -41,10 +45,10 @@
     "@types/react-dom": "19.0.3",
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9.31.0",
-    "eslint-config-next": "15.4.1",
+    "eslint-config-next": "15.4.2",
     "jest": "^30.0.4",
-    "jest-environment-jsdom": "^29.7.0",
-    "prettier": "^3.5.3",
+    "jest-environment-jsdom": "^30.0.5",
+    "prettier": "^3.6.2",
     "ts-node": "^10.9.2"
   },
   "overrides": {
