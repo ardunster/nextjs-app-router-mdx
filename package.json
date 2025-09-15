@@ -45,7 +45,7 @@
     "@types/react-dom": "19.0.3",
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9.32.0",
-    "eslint-config-next": "^15.4.4",
+    "eslint-config-next": "^15.5.3",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.5",
     "prettier": "^3.6.2",
