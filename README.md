@@ -49,7 +49,7 @@ At the top of each file is a YAML based frontmatter section that requires these 
 
 Run Jest unit tests via the `npm run test` (for a single run) or `npm run test:watch` (for continuous file watch run) commands.
 
-Playwright tests need the server running locally in either dev or production mode, then in a separate terminal window, run `npm run test:e2e` for headless mode with reporting in console, or `npm run test:e2e:ui` to run the Playwright ui.
+To run Playwright tests, install the headless browsers using `npx playwright install`. Then, run the server locally in either dev or production mode, and in a separate terminal window, run `npm run test:e2e` for headless mode with reporting in console, or `npm run test:e2e:ui` to run the Playwright ui.
 
 ## Deploy on Vercel
 
